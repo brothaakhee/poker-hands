@@ -43,6 +43,8 @@ def test_cards_comparison():
         ('7H 7C 8H 8C KH KC KD 2H 4D 9C', 1),
         # 1 pair beats high card
         ('2C 2C 4D 6H 8D AC KD JH 3H 5C', 1),
+        # high card wins
+        ('AC 2C 4D 6H 8D KC QD JH 3H 5C', 1),
     ]
 
     # some random scenariors from the problem examples
